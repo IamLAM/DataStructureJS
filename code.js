@@ -25,3 +25,9 @@ console.log(wordsArray);
 //extract a range value
 
 console.log(wordsArray.slice(2, 3));
+
+// copy a complete array
+
+let wordsArray2 = [...wordsArray];
+console.log("WordsArray " + wordsArray);
+console.log("WordsArray2 " + wordsArray2);
