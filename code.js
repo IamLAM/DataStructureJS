@@ -31,3 +31,7 @@ console.log(wordsArray.slice(2, 3));
 let wordsArray2 = [...wordsArray];
 console.log("WordsArray " + wordsArray);
 console.log("WordsArray2 " + wordsArray2);
+
+//combine arrays and using spread operator
+
+let wordsArray3 = ["mom", "dad", "siblings", ...wordsArray];
