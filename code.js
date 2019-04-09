@@ -54,3 +54,18 @@ let wordsArray4 = [
 ];
 
 console.log(wordsArray4);
+
+
+//working with objects and attributes
+
+let person = {
+    name: "batman",
+    age: 36,
+    language: "english"
+
+
+}
+
+person.car = "batimovil"; //add another attribute
+
+console.log(person);
