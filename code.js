@@ -80,3 +80,8 @@ console.log(person);
 delete person.friends.women;
 delete person.friends.man;
 console.log(person);
+
+//Checking values in objects with in and hasOwnProperty
+
+console.log("language" in person);
+console.log(person.hasOwnProperty("name"));
