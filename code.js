@@ -85,3 +85,42 @@ console.log(person);
 
 console.log("language" in person);
 console.log(person.hasOwnProperty("name"));
+
+
+//using for in
+
+let users = {
+    Alan: {
+        age: 27,
+        online: false
+    },
+    Jeff: {
+        age: 32,
+        online: true
+    },
+    Sarah: {
+        age: 48,
+        online: false
+    },
+    Ryan: {
+        age: 19,
+        online: true
+    }
+};
+
+
+function countOnline(obj) {
+
+    let i = 0;
+
+
+    for (let u in obj) {
+        if (obj[u]["online"] == true)
+            i++;
+
+    }
+    return i;
+
+}
+
+console.log(countOnline(users));
