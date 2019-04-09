@@ -61,11 +61,18 @@ console.log(wordsArray4);
 let person = {
     name: "batman",
     age: 36,
-    language: "english"
+    language: "english",
+    friends: {
+        number: 5,
+        women: 2,
+        man: 3
 
+    }
 
 }
 
 person.car = "batimovil"; //add another attribute
+person.friends.number = 6;
+person.friends.women = 3;
 
 console.log(person);
