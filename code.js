@@ -42,3 +42,15 @@ if (wordsArray3.indexOf("batman") != -1)
     console.log("batman exists");
 else
     console.log("batman doesnt exits");
+
+
+//working with complex arrays
+
+let wordsArray4 = [
+
+    [1, 2, 3],
+    ['a', 'b', 'c', [10, 11, 2]]
+
+];
+
+console.log(wordsArray4);
