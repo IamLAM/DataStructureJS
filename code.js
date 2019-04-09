@@ -76,3 +76,7 @@ person.friends.number = 6;
 person.friends.women = 3;
 
 console.log(person);
+
+delete person.friends.women;
+delete person.friends.man;
+console.log(person);
