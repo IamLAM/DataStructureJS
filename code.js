@@ -124,3 +124,7 @@ function countOnline(obj) {
 }
 
 console.log(countOnline(users));
+
+//Generate array using Object key
+
+console.log(Object.keys(users));
