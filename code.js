@@ -17,3 +17,7 @@ console.log(wordsArray);
 
 wordsArray.splice(0, 2);
 console.log(wordsArray);
+
+//select and remove value.. and add value
+wordsArray.splice(0, 2, "Batman", "Black Widow");
+console.log(wordsArray);
