@@ -12,3 +12,8 @@ wordsArray.push(7, 'VIII', 9); //end
 wordsArray.shift();
 wordsArray.pop();
 console.log(wordsArray);
+
+//selecting value
+
+wordsArray.splice(0, 2);
+console.log(wordsArray);
