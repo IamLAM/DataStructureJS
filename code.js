@@ -35,3 +35,10 @@ console.log("WordsArray2 " + wordsArray2);
 //combine arrays and using spread operator
 
 let wordsArray3 = ["mom", "dad", "siblings", ...wordsArray];
+
+//working with indexof
+
+if (wordsArray3.indexOf("batman") != -1)
+    console.log("batman exists");
+else
+    console.log("batman doesnt exits");
