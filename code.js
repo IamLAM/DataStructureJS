@@ -6,3 +6,9 @@ console.log(wordsArray);
 //insert values
 wordsArray.unshift('I', 2, 'three'); //begin
 wordsArray.push(7, 'VIII', 9); //end
+
+//delete values
+
+wordsArray.shift();
+wordsArray.pop();
+console.log(wordsArray);
